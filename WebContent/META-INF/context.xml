@@ -1,0 +1,18 @@
+<Context reloadable="true">
+	<Resource name="jdbc/calificacionesAlumnos" auth="Container" type="javax.sql.DataSource"
+		username="usuario" password="password" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost/NOMBREBBDD" maxActive="8"
+		maxIdle="4" />
+		<resource-ref>
+  <res-ref-name>
+    jdbc/calificacionesAlumnos
+  </res-ref-name>
+  <res-type>
+    javax.sql.DataSource
+  </res-type>
+  <res-auth>
+    Container
+  </res-auth>
+</resource-ref>
+		
+</Context>

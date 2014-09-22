@@ -1,0 +1,557 @@
+.examples {
+    text-align: center
+}
+
+.example {
+    background: #f7f7f7;
+    color: #000;
+    margin: 0 auto 40px;
+    max-width: 1140px;
+}
+
+@media all and (min-width: 540px) {
+    .example {
+        min-height: 170px;
+    }
+}
+
+.examples--basic .countdown {
+    padding-top: 17px;
+}
+
+.examples--basic .countdown .ce-days, .examples--basic .countdown .ce-hours, .examples--basic .countdown .ce-minutes, .examples--basic .countdown .ce-seconds, .examples--basic .countdown .ce-dseconds, .examples--basic .countdown .ce-mseconds {
+    font-size: 1.5em;
+}
+
+@media all and (min-width: 540px) {
+    .examples--basic .countdown .ce-days, .examples--basic .countdown .ce-hours, .examples--basic .countdown .ce-minutes, .examples--basic .countdown .ce-seconds, .examples--basic .countdown .ce-dseconds, .examples--basic .countdown .ce-mseconds {
+        font-size: 4.5em;
+    }
+}
+
+.examples--basic .countdown .ce-days-label, .examples--basic .countdown .ce-hours-label, .examples--basic .countdown .ce-minutes-label, .examples--basic .countdown .ce-seconds-label, .examples--basic .countdown .ce-dseconds-label, .examples--basic .countdown .ce-mseconds-label {
+    display: block;
+    text-transform: uppercase;
+}
+
+.examples--basic .countdown .ce-dseconds {
+    display: inline-block;
+    width: 150px;
+}
+
+.examples--basic .countdown .ce-mseconds {
+    display: inline-block;
+    width: 150px;
+}
+
+.examples--basic .countdown .col {
+    display: block;
+    padding-bottom: 20px;
+    margin: 0 20px;
+}
+
+@media all and (min-width: 540px) {
+    .examples--basic .countdown .col {
+        display: inline-block;
+    }
+}
+
+.examples--basic .countdown hr {
+    border: none;
+    border-top: 1px solid #9d9d9d;
+    margin: 20px auto;
+    max-width: 450px;
+}
+
+.example.example--on-complete .status {
+    color: #d00f00;
+    font-size: 1.9em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.example.example--on-complete .status.status--complete {
+    color: #4dc22e;
+}
+
+.examples--styled .countdown {
+    line-height: 1.2em;
+}
+
+.example.example--marker {
+    font-family: 'Permanent Marker', cursive;
+    background: #000 url(../img/bg_marker.html);
+    background-size: cover;
+    color: #fff;
+    font-size: 70px;
+    padding: 20px 0;
+}
+
+@media all and (min-width: 540px) {
+    .example.example--marker {
+        font-size: 140px;
+        padding: 50px 0;
+    }
+}
+
+.example.example--bars {
+    background: #ffc728;
+    color: #fff;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 20px 0 20px;
+    text-align: center
+}
+
+@media all and (min-width: 900px) {
+    .example.example--bars {
+        padding: 90px 0 0
+    }
+}
+
+.example.example--bars .countdown {
+    display: inline-block;
+    margin: 0 10px
+}
+
+@media all and (min-width: 900px) {
+    .example.example--bars .info {
+        float: left
+    }
+}
+
+.example.example--bars .bar {
+    clear: both;
+    width: 120px;
+    background: #fff;
+    float: left;
+    margin-top: 7px;
+    margin-right: 5px
+}
+
+@media all and (min-width: 900px) {
+    .example.example--bars .bar {
+        width: 250px
+    }
+}
+
+.example.example--bars .fill {
+    background: #a66600;
+    height: 3px;
+    width: 0%
+}
+
+.example.example--bars .text {
+    clear: both;
+    padding-top: 30px;
+    text-align: left
+}
+
+@media all and (min-width: 900px) {
+    .example.example--bars .text {
+        padding-top: 10px;
+        clear: none;
+        float: left;
+        margin: -20px 0 0 50px
+    }
+}
+
+.example.example--bars strong {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.1em
+}
+
+@media all and (min-width: 900px) {
+    .example.example--bars strong {
+        font-size: 40px
+    }
+}
+
+.example.example--bars p {
+    font-size: 22px;
+    margin: 10px 0;
+    line-height: 1.2em
+}
+
+@media all and (min-width: 900px) {
+    .example.example--bars p {
+        font-size: 30px
+    }
+}
+
+.example.example--bars strong, .example.example--bars p {
+    font-style: italic
+}
+
+.example.example--bars .ce-days, .example.example--bars .ce-hours, .example.example--bars .ce-minutes, .example.example--bars .ce-seconds {
+    font-weight: 600 !important;
+    float: left;
+    width: 30px;
+    text-align: center
+}
+
+.example.example--bars .ce-days-label, .example.example--bars .ce-hours-label, .example.example--bars .ce-minutes-label, .example.example--bars .ce-seconds-label {
+    color: #a76500;
+    font-weight: 400;
+    float: left
+}
+
+.example.example--girlie {
+    background: #ec667a;
+    color: #fff;
+    min-height: 90px;
+    padding: 55px 10px 55px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: lowercase;
+    font-size: 30px;
+    font-weight: 300
+}
+
+.example.example--girlie span {
+    font-weight: 900
+}
+
+@media all and (min-width: 730px) {
+    .example.example--girlie {
+        padding: 80px 0;
+        font-size: 60px
+    }
+}
+
+.example.example--night {
+    background: #000;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    padding: 30px 0;
+    min-height: 0
+}
+
+@media all and (min-width: 400px) {
+    .example.example--night {
+        font-size: 60px
+    }
+}
+
+@media all and (min-width: 690px) {
+    .example.example--night {
+        font-size: 120px;
+        padding: 50px 0 70px
+    }
+}
+
+.example.example--night .number {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 20%;
+    padding: 5% 0
+}
+
+.example.example--night .number + .number {
+    border-top: 1px solid #ffc728
+}
+
+@media all and (min-width: 400px) {
+    .example.example--night .number {
+        display: inline-block;
+        height: 110px;
+        line-height: 110px;
+        margin: 0;
+        padding: 0 5%
+    }
+
+    .example.example--night .number + .number {
+        border-top: 0;
+        border-left: 1px solid #ffc728
+    }
+}
+
+.example.example--modern {
+    background: #292929;
+    color: #00deff;
+    display: block;
+    font-family: 'Exo', sans-serif;
+    font-size: 40px;
+    line-height: 170px;
+    padding-top: 20px;
+    text-align: center
+}
+
+@media all and (min-width: 600px) {
+    .example.example--modern {
+        font-size: 90px;
+        padding: 60px 0 40px
+    }
+}
+
+.example.example--modern .countdown {
+    display: inline-block;
+    height: 1em;
+    line-height: 1em;
+    overflow: hidden
+}
+
+.example.example--modern .countdown .number {
+    bottom: -1em;
+    display: inline-block;
+    padding: 0 0.1em;
+    position: relative;
+    text-align: left;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+    width: 1.1em
+}
+
+.example.example--modern .countdown .number.ce-mseconds {
+    width: 130px
+}
+
+.example.example--modern .countdown .number.animate {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -moz-transition: -moz-transform 0.3s;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s
+}
+
+.example.example--modern .countdown .number::before {
+    content: attr(data-old);
+    position: absolute;
+    top: -100%;
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.example.example--lovely {
+    background: #fde5e1;
+    color: #594b48;
+    font-family: 'Alice', serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+@media all and (min-width: 540px) {
+    .example.example--lovely {
+        font-size: 2em;
+        padding: 90px 0 10px
+    }
+}
+
+.example.example--lovely .ce-days {
+    font-size: 3em
+}
+
+.example.example--lovely strong {
+    color: #c28a81;
+    display: block;
+    font-weight: normal
+}
+
+.example.example--paper {
+    background: #dfd1b7 url(../img/bg_paper.html) repeat top center;
+    background-size: cover;
+    color: #98816e;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2em;
+    padding-bottom: 20px
+}
+
+@media all and (min-width: 540px) {
+    .example.example--paper {
+        font-size: 1.6em;
+        padding: 50px 0
+    }
+}
+
+.example.example--paper .col {
+    border: 2px solid #98816e;
+    border-radius: 100%;
+    display: inline-block;
+    margin-top: 22px;
+    padding-top: 15px;
+    width: 85px;
+    height: 70px
+}
+
+@media all and (min-width: 540px) {
+    .example.example--paper .col {
+        width: 115px;
+        height: 100px;
+        border-width: 5px
+    }
+}
+
+.example.example--paper .col span {
+    display: block;
+    font-size: 2em;
+    margin-top: 15px
+}
+
+@media all and (min-width: 540px) {
+    .example.example--paper .col span {
+        margin-top: 25px
+    }
+}
+
+.example.example--3d {
+    background: #31facd;
+    color: #00bfa0;
+    font-size: 0.8em
+}
+
+@media all and (min-width: 540px) {
+    .example.example--3d {
+        font-size: 1.2em;
+        padding: 50px 0 45px
+    }
+}
+
+.example.example--3d .col {
+    display: inline-block;
+    margin: 10% 2% 0;
+    width: 20%;
+    padding-bottom: 8%
+}
+
+@media all and (min-width: 540px) {
+    .example.example--3d .col {
+        margin: 50px 10px 0;
+        padding-bottom: 20px
+    }
+}
+
+.example.example--3d .ce-hours, .example.example--3d .ce-minutes, .example.example--3d .ce-seconds {
+    background: #00bfa0;
+    color: #fff;
+    display: block;
+    font-size: 1.5em;
+    height: 1.8em;
+    line-height: 1.8em;
+    margin-bottom: 5px
+}
+
+.example.example--circle {
+    background: transparent;
+    color: #fafcfe;
+    font-weight: bold;
+}
+
+.example.example--circle .countdown {
+    max-width: none;
+    padding: 50px 20px;
+}
+
+.example.example--circle .circle {
+    display: inline-block;
+    position: relative;
+    margin: 0
+}
+
+.example.example--circle canvas {
+    height: 140px;
+    width: 140px
+}
+
+.example.example--circle .circle__values {
+    height: 70px;
+    margin-top: -47px;
+    position: absolute;
+    top: 50%;
+    width: 100%
+}
+
+.example.example--circle .ce-digit, .example.example--circle .ce-label {
+    display: block;
+    line-height: 1
+}
+
+.example.example--circle .ce-digit {
+    display: block;
+    font-size: 75px
+}
+
+.example.example--circle .ce-label {
+    color: #fafcfe;
+    display: block;
+    font-size: 18px;
+    margin-top: 0px;
+    text-transform: none;
+    font-weight: normal;
+    line-height: 26px;
+}
+
+@media all and (min-width: 320px) {
+
+    .example.example--circle canvas {
+        width: 235px;
+        height: 235px;
+        margin: 0 -10px;
+    }
+    .example.example--circle .circle__values {
+        margin-top: -72px;
+    }
+    .example.example--circle .ce-label {
+        font-size: 36px;
+        margin-top: 15px;
+    }
+    .example.example--circle .ce-digit {
+        font-size: 112px
+    }
+
+
+}
+@media all and (min-width: 400px) {
+    .example.example--circle .circle {
+        margin: 0
+    }
+
+    .example.example--circle canvas {
+        height: 235px;
+        margin: 15px 0;
+        width: 235px;      
+    }
+
+    .example.example--circle .ce-digit {
+        font-size: 112px
+    }
+
+    .example.example--circle .ce-label {
+        font-size: 36px;
+        color: #fafcfe;
+        font-weight: normal;
+        line-height: 26px;
+        text-transform: none;
+    }
+}
+
+@media all and (min-width: 900px) {
+    .example.example--circle .circle {
+        margin: 5px 50px;
+    }
+
+    .example.example--circle canvas {
+        width: 235px;
+        height: 235px
+    }
+
+    .example.example--circle .ce-digit {
+        font-size: 112px
+    }
+
+    .example.example--circle .ce-label {
+        font-size: 36px;
+        color: #fafcfe;
+        font-weight: normal;
+        line-height: 26px;
+        text-transform: none;
+    }
+}
